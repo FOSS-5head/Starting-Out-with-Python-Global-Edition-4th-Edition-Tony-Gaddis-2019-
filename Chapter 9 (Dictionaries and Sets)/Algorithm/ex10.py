@@ -1,0 +1,7 @@
+set1 = set((input('Введите множество 1: ').split()))
+set2 = set(input('Введите множество 2: ').split())
+set3 = set2.intersection(set1)
+set1.update(set2)
+print('1', set1)
+set1.difference_update(set3)
+print('2', set1)

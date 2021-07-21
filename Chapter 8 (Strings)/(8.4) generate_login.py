@@ -1,0 +1,15 @@
+# -*- coding: cp1251 -*-
+
+from login import get_login_name as login
+
+
+def main():
+    first = input('¬ведите свое им€: ')
+    last = input('¬ведите свою фамилию: ')
+    idnumber = input('¬ведите свой номер студента: ')
+
+    print('¬аше им€ дл€ входа в систему:')
+    print(login(first, last, idnumber))
+
+
+main()
