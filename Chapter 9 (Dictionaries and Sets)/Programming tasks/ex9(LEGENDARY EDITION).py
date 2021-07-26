@@ -1,4 +1,4 @@
-# LEGENDARY COMPLEXITY (140 lines)
+# LEGENDARY COMPLEXITY (130 lines)
 import random
 
 
@@ -85,12 +85,10 @@ def deal_cards(deck, first_name, second_name):
             print('А у пользователя', second_name, hand_value2, 'очков\n')
 
             print('Карты на руках у ', first_name, ':', sep='')
-            for i in range(len(list1)):
-                print(list1[i])
+            print(', '.join(tuple(list1)))
             print()
             print('\nКарты на руках у ', second_name, ':', sep='')
-            for i in range(len(list2)):
-                print(list2[i])
+            print(', '.join(tuple(list2)))
 
             break
 
@@ -101,12 +99,10 @@ def deal_cards(deck, first_name, second_name):
             print('А у пользователя', second_name, hand_value2, 'очков\n')
 
             print('Карты на руках у ', first_name, ':', sep='')
-            for i in range(len(list1)):
-                print(list1[i])
+            print(', '.join(tuple(list1)))
             print()
             print('Карты на руках у ', second_name, ':', sep='')
-            for i in range(len(list2)):
-                print(list2[i])
+            print(', '.join(tuple(list2)))
             break
 
         elif hand_value2 > 21:
@@ -116,12 +112,10 @@ def deal_cards(deck, first_name, second_name):
             print('А у пользователя', second_name, hand_value2, 'очков\n')
 
             print('Карты на руках у ', first_name, ':', sep='')
-            for i in range(len(list1)):
-                print(list1[i])
+            print(', '.join(tuple(list1)))
             print()
             print('Карты на руках у ', second_name, ':', sep='')
-            for i in range(len(list2)):
-                print(list2[i])
+            print(', '.join(tuple(list2)))
             break
 
         card1, value1 = deck.popitem()
