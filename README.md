@@ -6,4 +6,5 @@ Starting Out with Python, Global Edition, 4th Edition (Tony Gaddis, 2019). This 
 Начинаем программировать на Python, 4-е издание (Тонни Гэддис, 2019). Этот репозиторий со всеми теоретическими заданиями из книги и немного практической части. В частности, код на русском языке. Приятного кодирования!
 
 Chapter 10 is coming
+
 UPD: Chapter 11 is coming
