@@ -1,0 +1,10 @@
+Algorithm to create GUI-app with module tkinter.
+https://ru.wikiversity.org/wiki/%D0%9A%D1%83%D1%80%D1%81_%D0%BF%D0%BE_%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B5_Tkinter_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0_Python
+
+============================================================
+1) Create main variable: self.main_window = tkinter.Tk().
+2) Create more frames, how we need: (self.test1_frame = tkinter.Frame(self.main_window)).
+3) When adding something to a frame, don't forget to pack.
+4) Pack all frames.
+5) Run main function: (tkinter.mainloop()).
+============================================================
